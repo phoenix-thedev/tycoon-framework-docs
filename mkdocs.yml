@@ -1,0 +1,26 @@
+site_name: Tycoon Framework Documentation
+
+theme:
+  name: material  # Modern theme
+  palette:
+    - scheme: slate  # Enable dark mode
+  features:
+    - navigation.expand
+    - toc.integrate
+    - search.highlight
+    - search.share
+    - dark_mode.toggle  # Adds a dark mode toggle button
+
+nav:
+  - Home: index.md
+  - Setup: setup.md
+  - API: api.md
+  - Error Codes: error_codes.md
+
+# You can add extra files or folders here if you want to link images or assets.
+extra:
+  logo: assets/logo.png  # Add a logo image to the top of the documentation
+
+markdown_extensions:
+  - toc:
+      permalink: true
